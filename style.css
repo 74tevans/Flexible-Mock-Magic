@@ -86,7 +86,7 @@ footer {
 /* CODE YOUR FLEXBOXES HERE */
 
 
-.sideBar {
+.sidebar {
     display: flex;
     flex-direction: column;  
     justify-content: space-between;
