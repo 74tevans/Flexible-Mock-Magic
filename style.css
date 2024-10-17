@@ -90,9 +90,10 @@ footer {
     display: flex;
     flex-direction: column;  
     justify-content: space-around;
+    align-items: center;
   
-    height: 64vw;
-    width: 10%;
+    height: 63vw;
+    width: 20%;
     border-right: 1px solid #D7DBDD;
     background-color: navy;
     color: white;
