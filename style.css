@@ -61,6 +61,8 @@ footer img {
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .image-container{
@@ -85,19 +87,21 @@ footer {
 
 /* CODE YOUR FLEXBOXES HERE */
 
-
 .sidebar {
     display: flex;
     flex-direction: column;  
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
   
-    height: 300px;
-    width: 150px;
+    height: 63vw;
+    width: 20%;
     border-right: 1px solid #D7DBDD;
     background-color: navy;
     color: white;
     padding: 10px;
-
-
   }
 
+  .main-content{
+    display: flex;
+    flex-flow: row wrap;
+  }
