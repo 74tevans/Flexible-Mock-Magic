@@ -86,6 +86,7 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+
 .sidebar {
     display: flex;
     flex-direction: column;  
